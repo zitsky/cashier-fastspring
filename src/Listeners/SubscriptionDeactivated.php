@@ -1,9 +1,9 @@
 <?php
 
-namespace Bgultekin\CashierFastspring\Listeners;
+namespace Zitsky\CashierFastspring\Listeners;
 
-use Bgultekin\CashierFastspring\Events;
-use Bgultekin\CashierFastspring\Subscription;
+use Zitsky\CashierFastspring\Events;
+use Zitsky\CashierFastspring\Subscription;
 
 /**
  * This class is a listener for subscription deactivation events.
@@ -24,7 +24,7 @@ class SubscriptionDeactivated extends Base
     /**
      * Handle the event.
      *
-     * @param \Bgultekin\CashierFastspring\Events\Base $event
+     * @param \Zitsky\CashierFastspring\Events\Base $event
      *
      * @return void
      */

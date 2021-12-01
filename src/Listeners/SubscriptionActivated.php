@@ -1,10 +1,10 @@
 <?php
 
-namespace Bgultekin\CashierFastspring\Listeners;
+namespace Zitsky\CashierFastspring\Listeners;
 
-use Bgultekin\CashierFastspring\Events;
-use Bgultekin\CashierFastspring\Subscription;
-use Bgultekin\CashierFastspring\SubscriptionPeriod;
+use Zitsky\CashierFastspring\Events;
+use Zitsky\CashierFastspring\Subscription;
+use Zitsky\CashierFastspring\SubscriptionPeriod;
 
 /**
  * This class is a listener for subscription state change events.
@@ -31,7 +31,7 @@ class SubscriptionActivated extends Base
     /**
      * Handle the event.
      *
-     * @param \Bgultekin\CashierFastspring\Events\SubscriptionActivated $event
+     * @param \Zitsky\CashierFastspring\Events\SubscriptionActivated $event
      *
      * @return void
      */

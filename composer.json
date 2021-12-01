@@ -4,8 +4,8 @@
     "keywords": ["laravel", "fastspring", "billing", "cashier"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/bgultekin/cashier-fastspring/issues",
-        "source": "https://github.com/bgultekin/cashier-fastspring"
+        "issues": "https://github.com/zitsky/cashier-fastspring/issues",
+        "source": "https://github.com/zitsky/cashier-fastspring"
     },
     "authors": [
         {
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Bgultekin\\CashierFastspring\\": "src/"
+            "Zitsky\\CashierFastspring\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bgultekin\\CashierFastspring\\Tests\\": "tests/"
+            "Zitsky\\CashierFastspring\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -45,7 +45,7 @@
         },
         "laravel": {
             "providers": [
-                "Bgultekin\\CashierFastspring\\CashierServiceProvider"
+                "Zitsky\\CashierFastspring\\CashierServiceProvider"
             ]
         }
     },

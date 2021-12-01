@@ -1,6 +1,6 @@
 <?php
 
-namespace Bgultekin\CashierFastspring;
+namespace Zitsky\CashierFastspring;
 
 use Illuminate\Support\ServiceProvider;
 

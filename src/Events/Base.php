@@ -1,6 +1,6 @@
 <?php
 
-namespace Bgultekin\CashierFastspring\Events;
+namespace Zitsky\CashierFastspring\Events;
 
 use Illuminate\Queue\SerializesModels;
 

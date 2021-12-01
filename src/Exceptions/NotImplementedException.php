@@ -1,6 +1,6 @@
 <?php
 
-namespace Bgultekin\CashierFastspring\Exceptions;
+namespace Zitsky\CashierFastspring\Exceptions;
 
 use BadMethodCallException;
 

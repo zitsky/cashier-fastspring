@@ -1,6 +1,6 @@
 <?php
 
-namespace Bgultekin\CashierFastspring\Events;
+namespace Zitsky\CashierFastspring\Events;
 
 class OrderPaymentPending extends Base
 {
