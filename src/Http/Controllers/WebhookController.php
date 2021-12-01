@@ -71,7 +71,7 @@ class WebhookController extends Controller
                 }
 
                 // trigger events
-                Event::fire(new Events\Any(
+                Event::disptach(new Events\Any(
                     $event['id'],
                     $event['type'],
                     $event['live'],
@@ -80,7 +80,7 @@ class WebhookController extends Controller
                     $event['data']
                 ));
 
-                Event::fire(new $categoryEvent(
+                Event::disptach(new $categoryEvent(
                     $event['id'],
                     $event['type'],
                     $event['live'],
@@ -89,7 +89,7 @@ class WebhookController extends Controller
                     $event['data']
                 ));
 
-                Event::fire(new $activityEvent(
+                Event::disptach(new $activityEvent(
                     $event['id'],
                     $event['type'],
                     $event['live'],
